@@ -1,0 +1,21 @@
+*{
+	margin: 0;   /* body=0 */
+	padding: 0;  /* 列表标签 */
+	list-style: none;   /* 列表标签 */
+	text-decoration: none;   /* a标签 */
+
+	font-style: normal;    /* 文字粗细样式去除掉 */
+	font-weight: normal;
+
+	-webkit-user-select: none;  /* 兼容问题，-webkit谷歌浏览器内核处理器，每个浏览器的处理器不一样 */
+	user-select: none;
+	box-sizing: border-box;  /* 设置了padding border大小自动减去 */
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  /* 点击时去掉高亮颜色 */
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img{
+	width: 100%;
+	height: 100%;
+	display: block;    /* 照片放不进去设置 */
+}
